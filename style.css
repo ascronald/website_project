@@ -1,0 +1,65 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* name card */
+h1{
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    color: grey;
+}
+
+h2{
+    display:flex;
+    justify-content:center;
+    font-size: large;
+    color:#22A7F0;
+}
+
+.About_me{
+    display:flex;
+    justify-content:center;
+    font-size: large;
+}
+
+.me{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#school{
+    opacity: 0.3;
+    width: 1500px;
+}
+
+/* allows text into the image */
+ 
+.About_me{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+/* styles nav bar */
+nav {
+    display: flex;
+    background-color: #272D33;
+    padding: 5px;
+    justify-content: space-around;
+ }
+
+
+/* makes nav bar white */
+a {
+    text-decoration: none; 
+    color: white; 
+}
+
+
+.logo{
+    width: 30px;
+}
